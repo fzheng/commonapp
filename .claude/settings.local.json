@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker logs:*)",
+      "Bash(git add:*)",
+      "Bash(cmd /c \"del /f nul\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

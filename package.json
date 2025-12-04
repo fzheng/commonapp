@@ -1,0 +1,20 @@
+{
+  "name": "commonapp",
+  "version": "1.0.0",
+  "description": "College Application Management System for Advisors",
+  "scripts": {
+    "docker:up": "docker-compose up --build",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "docker:reset": "docker-compose down -v && docker-compose up --build"
+  },
+  "keywords": [
+    "college",
+    "admissions",
+    "advisor",
+    "application",
+    "deadlines"
+  ],
+  "author": "",
+  "license": "MIT"
+}
